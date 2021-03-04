@@ -1,0 +1,16 @@
+.btn{
+  border-radius:0 !important;
+}
+
+.btn-primary{
+  background-color: green !important;
+}
+
+
+
+.home{
+
+  vertical-align: middle;
+  height:28px;
+  width:26px;
+}

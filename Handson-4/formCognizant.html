@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS stylesheet-->
+ <link href="css/styleformCognizant.css" rel="stylesheet" />
+
+  <!-- Gigo third party library to include calendar -->
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- stylesheet for icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Form -Handson-4</title>
+
+</head>
+
+<body>
+
+
+  <!-- Navigation  bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Payroll</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="material-icons md-18 home">home</i>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Goals</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <h1>New Employee</h1>
+
+  <form style="margin:10px">
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="Fname">First Name</label>
+        <input type="text" class="form-control" id="Fname">
+
+      </div>
+      <div class="form-group col-md-4">
+        <label for="Mname">Middle Name</label>
+        <input type="text" class="form-control" id="Mname">
+
+      </div>
+      <div class="form-group col-md-4">
+        <label for="Lname">Last Name</label>
+        <input type="text" class="form-control" id="Lname">
+
+      </div>
+
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="Address1">Address Line 1</label>
+        <input type="text" class="form-control" id="Address1">
+
+      </div>
+      <div class="form-group col-md-6">
+        <label for="Address2">Address Line 2</label>
+        <input type="text" class="form-control" id="Address2">
+
+      </div>
+
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" id="Password">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="ConfirmPassword">Confirm Password</label>
+        <input type="password" class="form-control" id="ConfirmPassword4">
+      </div>
+    </div>
+
+
+    <div class="form-row">
+
+      <div class="form-group col-md-3">
+        <label for="Department">Department</label>
+        <select id="Department" class="form-control">
+          <option selected>IT</option>
+          <option>Sales</option>
+          <option>HR</option>
+        </select>
+      </div>
+
+      <div class="form-group col-md-3">
+        <label for="dateOfBirth">Date of Birth</label>
+        <input type="text" class="form-control" id="dateOfBirth">
+
+      </div>
+
+
+      <div class="form-group col-md-3">
+        <label>Gender</label>
+        <div class="container">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="genderM" id="genderM" value="Male">
+            <label class="form-check-label" for="genderM">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="genderF" id="genderF" value="Female">
+            <label class="form-check-label" for="genderF">Female</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group col-md-3">
+
+        <div class="form-check">
+          <label class="form-check-label" for="PermanentCheck">
+            Permanent
+          </label>
+          <div class="container mt-2">
+            <input class=" form-check-input" type="checkbox" id="PermanentCheck">
+
+          </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+
+  </form>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+<script>
+  $('#dateOfBirth').datepicker({
+
+    uiLibrary: 'bootstrap4',
+
+    format: 'dd/mm/yyyy'
+
+  });
+</script>
+
+</html>
