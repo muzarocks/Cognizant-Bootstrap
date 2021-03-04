@@ -1,0 +1,28 @@
+
+
+.home{
+
+  vertical-align: middle;
+  height:28px;
+  width:26px;
+}
+
+.heart{
+  cursor:pointer;
+}
+.heart:hover{
+  color: #FF0000;
+}
+
+.star{
+  font-size:10px !important;
+}
+
+.shopping-cart{
+  vertical-align:bottom;
+}
+
+.offer{
+  vertical-align:bottom;
+  color:red;
+}
